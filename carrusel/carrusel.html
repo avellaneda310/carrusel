@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mi carrusel</h1>
+    <div id="pelis">
+        <div>
+            Buscar:
+            <input type="text" id="Buscar">
+            <button onclick="BuscarPeliculas()"> Buscar </button>
+
+            Ordenar por:
+            <select name="orden" id="orden">  <!-- sirve para elegir -->
+                <option value="titulo">Titulo</option>
+                <option value="puntuacion">puntuacion</option>
+            </select>
+            <button onclick="ordenarPeliculas()"> orden </button> 
+        </div>
+
+        <div id="resultados">
+
+        </div>
+
+    </div>
+    <script src="/carrusel/carrusel.js"></script>
+    <script src="/carrusel/peliculas.js"></script>
+
+</body>
+</html>
