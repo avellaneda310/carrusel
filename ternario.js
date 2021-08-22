@@ -11,7 +11,7 @@ var edad = prompt("ingresa tu edad: ");
 edad > 18 {
     alert("adelante");
     location.assign("vamos.html"); 
-} : {
+
     alert("lo siento no puedes ingresar")
 }
 
